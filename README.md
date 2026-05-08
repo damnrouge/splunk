@@ -1,31 +1,27 @@
 # Splunk Detection Engineering Knowledge Base
 
-A comprehensive, practical knowledge base for **Detection Engineers** working with Splunk.
+**Principal-Level Reference for Senior Detection Engineers**
 
-## Overview
+Built for environments running 15,000–50,000+ EPS across multi-petabyte data lakes in global SOCs.
 
-This repository is a living knowledge base covering Splunk from fundamentals to advanced detection engineering, query optimization, and production best practices.
+This knowledge base represents 12+ years of real-world experience building, optimizing, and scaling Splunk detections in high-volume, mission-critical environments.
 
-## 📚 Table of Contents
+It is not a beginner guide. It assumes strong SPL knowledge and focuses on production-scale challenges, deep internals, performance engineering, and advanced detection strategies that senior/principal engineers actually use daily.
+
+## Table of Contents
 
 | File | Topic |
 |------|-------|
-| [01_Splunk_Fundamentals.md](./01_Splunk_Fundamentals.md) | Splunk Fundamentals for Detection Engineering |
-| [02_Query_Optimization.md](./02_Query_Optimization.md) | Query Optimization |
-| [03_Data_Format_Handling.md](./03_Data_Format_Handling.md) | Data Format Handling |
-| [04_Query_Performance_Monitoring.md](./04_Query_Performance_Monitoring.md) | Query Performance Monitoring |
-| [05_Detection_Engineering_Workflow.md](./05_Detection_Engineering_Workflow.md) | Detection Engineering Workflow |
-| [06_Tips_and_Tricks.md](./06_Tips_and_Tricks.md) | Tips & Tricks |
-| [07_Advanced_Techniques.md](./07_Advanced_Techniques.md) | Advanced Techniques |
-| [08_Troubleshooting_Best_Practices.md](./08_Troubleshooting_Best_Practices.md) | Troubleshooting & Best Practices |
+| [01-fundamentals.md](./01-fundamentals.md) | Splunk Fundamentals for Detection Engineering – Deep architecture and internals |
+| [02-query-optimization.md](./02-query-optimization.md) | Query Optimization – Advanced tuning with benchmarks |
+| [03-data-format-handling.md](./03-data-format-handling.md) | Data Format Handling – Production-grade parsing strategies |
+| [04-query-performance-monitoring.md](./04-query-performance-monitoring.md) | Query Performance Monitoring – Profiling and real-time bottleneck analysis |
+| [05-detection-engineering-workflow.md](./05-detection-engineering-workflow.md) | Detection Engineering Workflow – End-to-end lifecycle in large SOCs |
+| [06-tips-and-tricks.md](./06-tips-and-tricks.md) | Tips & Tricks – Advanced techniques from principal engineers |
+| [07-advanced-techniques.md](./07-advanced-techniques.md) | Advanced Techniques – Complex correlation searches and attack chain detections |
+| [08-troubleshooting-and-best-practices.md](./08-troubleshooting-and-best-practices.md) | Troubleshooting & Best Practices – Production hardening and scaling |
 
-## How to Use This KB
+**Last Updated**: May 2026
+**Purpose**: Daily reference for senior detection engineers in large-scale Splunk deployments.
 
-- Start with **01_Splunk_Fundamentals** if you are new to Splunk.
-- Use **02_Query_Optimization** and **04_Query_Performance_Monitoring** when your searches are slow.
-- Follow **05_Detection_Engineering_Workflow** for building reliable detections.
-- Refer to **06_Tips_and_Tricks** for daily productivity.
-
-Contributions and suggestions are welcome.
-
-Last Updated: May 2026
+Clone this repo and use it as your personal/principal-level playbook.
